@@ -15,7 +15,7 @@ body {
     font-family: "Roboto-Black", Arial;
 }
 /* Flex header and its items style */
-header.page-header {
+.page-header {
     top: 0px;
     left: 0px;
     background-color: black;
