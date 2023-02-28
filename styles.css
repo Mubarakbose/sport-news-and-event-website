@@ -28,6 +28,7 @@ header {
 /* contents of header items */
 .logo {
     margin-left: 10%; 
+    coloe: white; /*logo can be updated after agreement*/
 }
 nav {
     margin-right: 10%;
@@ -40,8 +41,8 @@ li, a {
     list-style: none;
     display: inline-block;
     text-decoration: none;  
-    color: #ffffff;
-    padding: 0 5px 0 5px ;
+    color: white;
+    padding: 0 5px 0 5px;
 } 
 /* Colors and Font Styles
 
