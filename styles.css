@@ -1,7 +1,48 @@
 html {
     scroll-behavior: smooth;
 }
-
+/* fonts importation from the fonts folder */
+@font-face {
+    font-family: "Roboto-Black";
+    src: url(./fonts/Roboto-Black.ttf) format('truetype');
+}
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(./fonts/Roboto-Light.ttf) format('truetype');
+}
+/* page font style */
+body {
+    font-family: "Roboto-Black", Arial;
+}
+/* Flex header and its items style */
+header {
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    align-items: center;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+/* contents of header items */
+.logo {
+    margin-left: 10%; 
+}
+nav {
+    margin-right: 10%;
+}
+/* navigation menu styles goes here */
+ul {
+    font-family: "Roboto-Light";
+}
+li, a {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;  
+    color: #ffffff;
+    padding: 0 5px 0 5px ;
+} 
 /* Colors and Font Styles
 
 dark-background-color: #1f2937;
